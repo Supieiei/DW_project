@@ -6,3 +6,7 @@ git commit -m "Your commit message here"
 git push origin <remote-branch-name> #ให้เปลี่ยน <remote-branch-name> เป็นชื่อ branch ที่ต้องการ push
 # switch to a different branch
 git checkout <branch-name> #ให้เปลี่ยน <branch-name> เป็นชื่อ branch ที่ต้องการ switch ไป
+
+#pip commands
+# freeze the current environment's packages into a requirements.txt file    
+pip freeze > requirements.txt
